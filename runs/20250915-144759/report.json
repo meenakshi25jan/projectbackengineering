@@ -1,0 +1,1246 @@
+{
+  "summary": {
+    "Markdown": {
+      "files": 1,
+      "lines": 44,
+      "bytes": 843
+    },
+    "Other": {
+      "files": 146,
+      "lines": 55531,
+      "bytes": 49940332
+    },
+    "VB/VB.NET": {
+      "files": 47,
+      "lines": 7500,
+      "bytes": 322943
+    },
+    "XML": {
+      "files": 8,
+      "lines": 22376,
+      "bytes": 1117992
+    }
+  },
+  "files": [
+    {
+      "relpath": "vb-project-master\\README.md",
+      "language": "Markdown",
+      "lines": 44,
+      "size_bytes": 843
+    },
+    {
+      "relpath": "vb-project-master\\vbproject.sln",
+      "language": "Other",
+      "lines": 23,
+      "size_bytes": 994
+    },
+    {
+      "relpath": "vb-project-master\\.vs\\vbproject\\v14\\.suo",
+      "language": "Other",
+      "lines": 27,
+      "size_bytes": 92672
+    },
+    {
+      "relpath": "vb-project-master\\.vs\\vbproject\\v15\\.suo",
+      "language": "Other",
+      "lines": 28,
+      "size_bytes": 94720
+    },
+    {
+      "relpath": "vb-project-master\\.vs\\vbproject\\v15\\sqlite3\\storage.ide",
+      "language": "Other",
+      "lines": 2655,
+      "size_bytes": 1085440
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\aboutUs.Designer.vb",
+      "language": "VB/VB.NET",
+      "lines": 254,
+      "size_bytes": 11378
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\aboutUs.resx",
+      "language": "Other",
+      "lines": 120,
+      "size_bytes": 5817
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\aboutUs.vb",
+      "language": "VB/VB.NET",
+      "lines": 82,
+      "size_bytes": 2872
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\App.config",
+      "language": "Other",
+      "lines": 6,
+      "size_bytes": 188
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\changepassword.Designer.vb",
+      "language": "VB/VB.NET",
+      "lines": 141,
+      "size_bytes": 6287
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\changepassword.resx",
+      "language": "Other",
+      "lines": 120,
+      "size_bytes": 5817
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\changepassword.vb",
+      "language": "VB/VB.NET",
+      "lines": 66,
+      "size_bytes": 2690
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\controlModule.vb",
+      "language": "VB/VB.NET",
+      "lines": 92,
+      "size_bytes": 3756
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\customerInfo.Designer.vb",
+      "language": "VB/VB.NET",
+      "lines": 299,
+      "size_bytes": 13543
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\customerInfo.resx",
+      "language": "Other",
+      "lines": 120,
+      "size_bytes": 5817
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\customerInfo.vb",
+      "language": "VB/VB.NET",
+      "lines": 143,
+      "size_bytes": 6006
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\deleteRoom.Designer.vb",
+      "language": "VB/VB.NET",
+      "lines": 80,
+      "size_bytes": 3320
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\deleteRoom.resx",
+      "language": "Other",
+      "lines": 120,
+      "size_bytes": 5817
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\deleteRoom.vb",
+      "language": "VB/VB.NET",
+      "lines": 40,
+      "size_bytes": 1417
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\deleteServices.Designer.vb",
+      "language": "VB/VB.NET",
+      "lines": 79,
+      "size_bytes": 3258
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\deleteServices.resx",
+      "language": "Other",
+      "lines": 120,
+      "size_bytes": 5817
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\deleteServices.vb",
+      "language": "VB/VB.NET",
+      "lines": 40,
+      "size_bytes": 1434
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\deleteUsers.Designer.vb",
+      "language": "VB/VB.NET",
+      "lines": 80,
+      "size_bytes": 3318
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\deleteUsers.resx",
+      "language": "Other",
+      "lines": 120,
+      "size_bytes": 5817
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\deleteUsers.vb",
+      "language": "VB/VB.NET",
+      "lines": 40,
+      "size_bytes": 1432
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\editRoom.Designer.vb",
+      "language": "VB/VB.NET",
+      "lines": 147,
+      "size_bytes": 5548
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\editRoom.resx",
+      "language": "Other",
+      "lines": 120,
+      "size_bytes": 5817
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\editRoom.vb",
+      "language": "VB/VB.NET",
+      "lines": 70,
+      "size_bytes": 2782
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\forgetform.Designer.vb",
+      "language": "VB/VB.NET",
+      "lines": 162,
+      "size_bytes": 6889
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\forgetform.resx",
+      "language": "Other",
+      "lines": 120,
+      "size_bytes": 5817
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\forgetform.vb",
+      "language": "VB/VB.NET",
+      "lines": 111,
+      "size_bytes": 4852
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\forgetformcode.Designer.vb",
+      "language": "VB/VB.NET",
+      "lines": 107,
+      "size_bytes": 4643
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\forgetformcode.resx",
+      "language": "Other",
+      "lines": 120,
+      "size_bytes": 5817
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\forgetformcode.vb",
+      "language": "VB/VB.NET",
+      "lines": 28,
+      "size_bytes": 990
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\help.Designer.vb",
+      "language": "VB/VB.NET",
+      "lines": 71,
+      "size_bytes": 2969
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\help.resx",
+      "language": "Other",
+      "lines": 120,
+      "size_bytes": 5817
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\help.vb",
+      "language": "VB/VB.NET",
+      "lines": 39,
+      "size_bytes": 1475
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\homeform1.Designer.vb",
+      "language": "VB/VB.NET",
+      "lines": 39,
+      "size_bytes": 1379
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\homeform1.resx",
+      "language": "Other",
+      "lines": 120,
+      "size_bytes": 5817
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\homeform1.vb",
+      "language": "VB/VB.NET",
+      "lines": 3,
+      "size_bytes": 38
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\homepage.Designer.vb",
+      "language": "VB/VB.NET",
+      "lines": 1553,
+      "size_bytes": 81106
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\homepage.resx",
+      "language": "Other",
+      "lines": 268,
+      "size_bytes": 16694
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\homepage.vb",
+      "language": "VB/VB.NET",
+      "lines": 802,
+      "size_bytes": 27221
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\loginform.Designer.vb",
+      "language": "VB/VB.NET",
+      "lines": 128,
+      "size_bytes": 6105
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\loginform.resx",
+      "language": "Other",
+      "lines": 0,
+      "size_bytes": 3602616
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\loginform.vb",
+      "language": "VB/VB.NET",
+      "lines": 80,
+      "size_bytes": 2850
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\manageRoom.Designer.vb",
+      "language": "VB/VB.NET",
+      "lines": 136,
+      "size_bytes": 5120
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\manageRoom.resx",
+      "language": "Other",
+      "lines": 120,
+      "size_bytes": 5817
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\manageRoom.vb",
+      "language": "VB/VB.NET",
+      "lines": 37,
+      "size_bytes": 1579
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\otherSetting.Designer.vb",
+      "language": "VB/VB.NET",
+      "lines": 136,
+      "size_bytes": 6003
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\otherSetting.resx",
+      "language": "Other",
+      "lines": 120,
+      "size_bytes": 5817
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\otherSetting.vb",
+      "language": "VB/VB.NET",
+      "lines": 52,
+      "size_bytes": 1837
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\printForm.Designer.vb",
+      "language": "VB/VB.NET",
+      "lines": 285,
+      "size_bytes": 12493
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\printForm.resx",
+      "language": "Other",
+      "lines": 120,
+      "size_bytes": 5817
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\printForm.vb",
+      "language": "VB/VB.NET",
+      "lines": 15,
+      "size_bytes": 587
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\sendMail.Designer.vb",
+      "language": "VB/VB.NET",
+      "lines": 153,
+      "size_bytes": 5523
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\sendMail.resx",
+      "language": "Other",
+      "lines": 120,
+      "size_bytes": 5817
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\sendMail.vb",
+      "language": "VB/VB.NET",
+      "lines": 76,
+      "size_bytes": 2721
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\servicesInfo.Designer.vb",
+      "language": "VB/VB.NET",
+      "lines": 139,
+      "size_bytes": 5630
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\servicesInfo.resx",
+      "language": "Other",
+      "lines": 120,
+      "size_bytes": 5817
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\servicesInfo.vb",
+      "language": "VB/VB.NET",
+      "lines": 47,
+      "size_bytes": 1874
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\showUsers.Designer.vb",
+      "language": "VB/VB.NET",
+      "lines": 392,
+      "size_bytes": 17869
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\showUsers.resx",
+      "language": "Other",
+      "lines": 120,
+      "size_bytes": 5817
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\showUsers.vb",
+      "language": "VB/VB.NET",
+      "lines": 153,
+      "size_bytes": 6980
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\updateRform.Designer.vb",
+      "language": "VB/VB.NET",
+      "lines": 144,
+      "size_bytes": 6149
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\updateRform.resx",
+      "language": "Other",
+      "lines": 120,
+      "size_bytes": 5817
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\updateRform.vb",
+      "language": "VB/VB.NET",
+      "lines": 73,
+      "size_bytes": 2847
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\updateUsers.Designer.vb",
+      "language": "VB/VB.NET",
+      "lines": 200,
+      "size_bytes": 8415
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\updateUsers.resx",
+      "language": "Other",
+      "lines": 120,
+      "size_bytes": 5817
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\updateUsers.vb",
+      "language": "VB/VB.NET",
+      "lines": 83,
+      "size_bytes": 3392
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\vbproject.vbproj",
+      "language": "Other",
+      "lines": 429,
+      "size_bytes": 15396
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\bin\\Debug\\mydatabase.mdb",
+      "language": "Other",
+      "lines": 1818,
+      "size_bytes": 856064
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\bin\\Debug\\MySql.Data.dll",
+      "language": "Other",
+      "lines": 7163,
+      "size_bytes": 424448
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\bin\\Debug\\MySql.Data.Entity.EF6.dll",
+      "language": "Other",
+      "lines": 9308,
+      "size_bytes": 359424
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\bin\\Debug\\MySql.Data.Entity.EF6.xml",
+      "language": "XML",
+      "lines": 179,
+      "size_bytes": 8849
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\bin\\Debug\\MySql.Data.xml",
+      "language": "XML",
+      "lines": 10570,
+      "size_bytes": 536582
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\bin\\Debug\\vbproject.exe",
+      "language": "Other",
+      "lines": 0,
+      "size_bytes": 6090240
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\bin\\Debug\\vbproject.exe.config",
+      "language": "Other",
+      "lines": 6,
+      "size_bytes": 188
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\bin\\Debug\\vbproject.pdb",
+      "language": "Other",
+      "lines": 265,
+      "size_bytes": 220672
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\bin\\Debug\\vbproject.vshost.exe",
+      "language": "Other",
+      "lines": 169,
+      "size_bytes": 22696
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\bin\\Debug\\vbproject.vshost.exe.config",
+      "language": "Other",
+      "lines": 6,
+      "size_bytes": 188
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\bin\\Debug\\vbproject.vshost.exe.manifest",
+      "language": "Other",
+      "lines": 12,
+      "size_bytes": 490
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\bin\\Debug\\vbproject.xml",
+      "language": "XML",
+      "lines": 222,
+      "size_bytes": 6861
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\bin\\Release\\MySql.Data.dll",
+      "language": "Other",
+      "lines": 7163,
+      "size_bytes": 424448
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\bin\\Release\\MySql.Data.Entity.EF6.dll",
+      "language": "Other",
+      "lines": 9308,
+      "size_bytes": 359424
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\bin\\Release\\MySql.Data.Entity.EF6.xml",
+      "language": "XML",
+      "lines": 179,
+      "size_bytes": 8849
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\bin\\Release\\MySql.Data.xml",
+      "language": "XML",
+      "lines": 10570,
+      "size_bytes": 536582
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\bin\\Release\\vbproject.exe",
+      "language": "Other",
+      "lines": 0,
+      "size_bytes": 6054400
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\bin\\Release\\vbproject.exe.config",
+      "language": "Other",
+      "lines": 6,
+      "size_bytes": 188
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\bin\\Release\\vbproject.pdb",
+      "language": "Other",
+      "lines": 259,
+      "size_bytes": 185856
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\bin\\Release\\vbproject.vshost.exe",
+      "language": "Other",
+      "lines": 169,
+      "size_bytes": 22696
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\bin\\Release\\vbproject.vshost.exe.config",
+      "language": "Other",
+      "lines": 6,
+      "size_bytes": 188
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\bin\\Release\\vbproject.vshost.exe.manifest",
+      "language": "Other",
+      "lines": 12,
+      "size_bytes": 490
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\bin\\Release\\vbproject.xml",
+      "language": "XML",
+      "lines": 217,
+      "size_bytes": 6704
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\My Project\\Application.Designer.vb",
+      "language": "VB/VB.NET",
+      "lines": 39,
+      "size_bytes": 1517
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\My Project\\Application.myapp",
+      "language": "Other",
+      "lines": 10,
+      "size_bytes": 472
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\My Project\\AssemblyInfo.vb",
+      "language": "VB/VB.NET",
+      "lines": 36,
+      "size_bytes": 1162
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\My Project\\Resources.Designer.vb",
+      "language": "VB/VB.NET",
+      "lines": 454,
+      "size_bytes": 18706
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\My Project\\Resources.resx",
+      "language": "Other",
+      "lines": 238,
+      "size_bytes": 15527
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\My Project\\Settings.Designer.vb",
+      "language": "VB/VB.NET",
+      "lines": 74,
+      "size_bytes": 2981
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\My Project\\Settings.settings",
+      "language": "Other",
+      "lines": 8,
+      "size_bytes": 279
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Debug\\DesignTimeResolveAssemblyReferences.cache",
+      "language": "Other",
+      "lines": 40,
+      "size_bytes": 1622
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Debug\\DesignTimeResolveAssemblyReferencesInput.cache",
+      "language": "Other",
+      "lines": 7,
+      "size_bytes": 10221
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Debug\\vbproject.aboutUs.resources",
+      "language": "Other",
+      "lines": 1,
+      "size_bytes": 180
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Debug\\vbproject.changepassword.resources",
+      "language": "Other",
+      "lines": 1,
+      "size_bytes": 180
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Debug\\vbproject.customerInfo.resources",
+      "language": "Other",
+      "lines": 1,
+      "size_bytes": 180
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Debug\\vbproject.deleteRoom.resources",
+      "language": "Other",
+      "lines": 1,
+      "size_bytes": 180
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Debug\\vbproject.deleteServices.resources",
+      "language": "Other",
+      "lines": 1,
+      "size_bytes": 180
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Debug\\vbproject.deleteUsers.resources",
+      "language": "Other",
+      "lines": 1,
+      "size_bytes": 180
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Debug\\vbproject.editRoom.resources",
+      "language": "Other",
+      "lines": 1,
+      "size_bytes": 180
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Debug\\vbproject.exe",
+      "language": "Other",
+      "lines": 0,
+      "size_bytes": 6090240
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Debug\\vbproject.forgetform.resources",
+      "language": "Other",
+      "lines": 1,
+      "size_bytes": 180
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Debug\\vbproject.forgetformcode.resources",
+      "language": "Other",
+      "lines": 1,
+      "size_bytes": 180
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Debug\\vbproject.help.resources",
+      "language": "Other",
+      "lines": 1,
+      "size_bytes": 180
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Debug\\vbproject.homeform1.resources",
+      "language": "Other",
+      "lines": 1,
+      "size_bytes": 180
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Debug\\vbproject.homepage.resources",
+      "language": "Other",
+      "lines": 30,
+      "size_bytes": 6718
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Debug\\vbproject.loginform.resources",
+      "language": "Other",
+      "lines": 0,
+      "size_bytes": 2398252
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Debug\\vbproject.manageRoom.resources",
+      "language": "Other",
+      "lines": 1,
+      "size_bytes": 180
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Debug\\vbproject.otherSetting.resources",
+      "language": "Other",
+      "lines": 1,
+      "size_bytes": 180
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Debug\\vbproject.pdb",
+      "language": "Other",
+      "lines": 265,
+      "size_bytes": 220672
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Debug\\vbproject.printForm.resources",
+      "language": "Other",
+      "lines": 1,
+      "size_bytes": 180
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Debug\\vbproject.Resources.resources",
+      "language": "Other",
+      "lines": 0,
+      "size_bytes": 3500291
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Debug\\vbproject.sendMail.resources",
+      "language": "Other",
+      "lines": 1,
+      "size_bytes": 180
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Debug\\vbproject.servicesInfo.resources",
+      "language": "Other",
+      "lines": 1,
+      "size_bytes": 180
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Debug\\vbproject.showUsers.resources",
+      "language": "Other",
+      "lines": 1,
+      "size_bytes": 180
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Debug\\vbproject.updateRform.resources",
+      "language": "Other",
+      "lines": 1,
+      "size_bytes": 180
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Debug\\vbproject.updateUsers.resources",
+      "language": "Other",
+      "lines": 1,
+      "size_bytes": 180
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Debug\\vbproject.vbproj.CopyComplete",
+      "language": "Other",
+      "lines": 1,
+      "size_bytes": 0
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Debug\\vbproject.vbproj.CoreCompileInputs.cache",
+      "language": "Other",
+      "lines": 2,
+      "size_bytes": 42
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Debug\\vbproject.vbproj.FileListAbsolute.txt",
+      "language": "Other",
+      "lines": 133,
+      "size_bytes": 13822
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Debug\\vbproject.vbproj.GenerateResource.Cache",
+      "language": "Other",
+      "lines": 9,
+      "size_bytes": 3905
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Debug\\vbproject.vbprojResolveAssemblyReference.cache",
+      "language": "Other",
+      "lines": 557,
+      "size_bytes": 57262
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Debug\\vbproject.xml",
+      "language": "XML",
+      "lines": 222,
+      "size_bytes": 6861
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Debug\\TempPE\\My Project.Resources.Designer.vb.dll",
+      "language": "Other",
+      "lines": 181,
+      "size_bytes": 10752
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Release\\DesignTimeResolveAssemblyReferences.cache",
+      "language": "Other",
+      "lines": 40,
+      "size_bytes": 1622
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Release\\DesignTimeResolveAssemblyReferencesInput.cache",
+      "language": "Other",
+      "lines": 6,
+      "size_bytes": 12746
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Release\\vbproject.aboutUs.resources",
+      "language": "Other",
+      "lines": 1,
+      "size_bytes": 180
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Release\\vbproject.changepassword.resources",
+      "language": "Other",
+      "lines": 1,
+      "size_bytes": 180
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Release\\vbproject.customerInfo.resources",
+      "language": "Other",
+      "lines": 1,
+      "size_bytes": 180
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Release\\vbproject.deleteRoom.resources",
+      "language": "Other",
+      "lines": 1,
+      "size_bytes": 180
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Release\\vbproject.deleteServices.resources",
+      "language": "Other",
+      "lines": 1,
+      "size_bytes": 180
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Release\\vbproject.deleteUsers.resources",
+      "language": "Other",
+      "lines": 1,
+      "size_bytes": 180
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Release\\vbproject.editRoom.resources",
+      "language": "Other",
+      "lines": 1,
+      "size_bytes": 180
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Release\\vbproject.exe",
+      "language": "Other",
+      "lines": 0,
+      "size_bytes": 6054400
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Release\\vbproject.forgetform.resources",
+      "language": "Other",
+      "lines": 1,
+      "size_bytes": 180
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Release\\vbproject.forgetformcode.resources",
+      "language": "Other",
+      "lines": 1,
+      "size_bytes": 180
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Release\\vbproject.help.resources",
+      "language": "Other",
+      "lines": 1,
+      "size_bytes": 180
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Release\\vbproject.homeform1.resources",
+      "language": "Other",
+      "lines": 1,
+      "size_bytes": 180
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Release\\vbproject.homepage.resources",
+      "language": "Other",
+      "lines": 30,
+      "size_bytes": 6718
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Release\\vbproject.loginform.resources",
+      "language": "Other",
+      "lines": 0,
+      "size_bytes": 2398252
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Release\\vbproject.manageRoom.resources",
+      "language": "Other",
+      "lines": 1,
+      "size_bytes": 180
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Release\\vbproject.otherSetting.resources",
+      "language": "Other",
+      "lines": 1,
+      "size_bytes": 180
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Release\\vbproject.pdb",
+      "language": "Other",
+      "lines": 259,
+      "size_bytes": 185856
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Release\\vbproject.Resources.resources",
+      "language": "Other",
+      "lines": 0,
+      "size_bytes": 3499522
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Release\\vbproject.sendMail.resources",
+      "language": "Other",
+      "lines": 1,
+      "size_bytes": 180
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Release\\vbproject.servicesInfo.resources",
+      "language": "Other",
+      "lines": 1,
+      "size_bytes": 180
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Release\\vbproject.showUsers.resources",
+      "language": "Other",
+      "lines": 1,
+      "size_bytes": 180
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Release\\vbproject.updateUsers.resources",
+      "language": "Other",
+      "lines": 1,
+      "size_bytes": 180
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Release\\vbproject.vbproj.FileListAbsolute.txt",
+      "language": "Other",
+      "lines": 34,
+      "size_bytes": 4921
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Release\\vbproject.vbproj.GenerateResource.Cache",
+      "language": "Other",
+      "lines": 9,
+      "size_bytes": 3703
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Release\\vbproject.vbprojResolveAssemblyReference.cache",
+      "language": "Other",
+      "lines": 197,
+      "size_bytes": 19041
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Release\\vbproject.xml",
+      "language": "XML",
+      "lines": 217,
+      "size_bytes": 6704
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\obj\\Release\\TempPE\\My Project.Resources.Designer.vb.dll",
+      "language": "Other",
+      "lines": 179,
+      "size_bytes": 10752
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\Resources\\about-us.png",
+      "language": "Other",
+      "lines": 5,
+      "size_bytes": 535
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\Resources\\aboutus.png",
+      "language": "Other",
+      "lines": 142,
+      "size_bytes": 34821
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\Resources\\aboutus_hover.png",
+      "language": "Other",
+      "lines": 141,
+      "size_bytes": 36336
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\Resources\\background.png",
+      "language": "Other",
+      "lines": 6106,
+      "size_bytes": 1766963
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\Resources\\billing.png",
+      "language": "Other",
+      "lines": 131,
+      "size_bytes": 34999
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\Resources\\billing_hover.png",
+      "language": "Other",
+      "lines": 112,
+      "size_bytes": 35830
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\Resources\\connection.png",
+      "language": "Other",
+      "lines": 4,
+      "size_bytes": 575
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\Resources\\customer.png",
+      "language": "Other",
+      "lines": 125,
+      "size_bytes": 38511
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\Resources\\customer_hover.png",
+      "language": "Other",
+      "lines": 134,
+      "size_bytes": 37503
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\Resources\\exit.png",
+      "language": "Other",
+      "lines": 3,
+      "size_bytes": 450
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\Resources\\export.png",
+      "language": "Other",
+      "lines": 4,
+      "size_bytes": 502
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\Resources\\facebook.png",
+      "language": "Other",
+      "lines": 6,
+      "size_bytes": 374
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\Resources\\folder.png",
+      "language": "Other",
+      "lines": 3,
+      "size_bytes": 414
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\Resources\\github.png",
+      "language": "Other",
+      "lines": 3,
+      "size_bytes": 603
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\Resources\\gmail.png",
+      "language": "Other",
+      "lines": 6,
+      "size_bytes": 622
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\Resources\\group-users.png",
+      "language": "Other",
+      "lines": 6,
+      "size_bytes": 547
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\Resources\\help-1.png",
+      "language": "Other",
+      "lines": 3,
+      "size_bytes": 529
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\Resources\\home.png",
+      "language": "Other",
+      "lines": 125,
+      "size_bytes": 33114
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\Resources\\home_hover.png",
+      "language": "Other",
+      "lines": 137,
+      "size_bytes": 37498
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\Resources\\import.png",
+      "language": "Other",
+      "lines": 3,
+      "size_bytes": 503
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\Resources\\info.png",
+      "language": "Other",
+      "lines": 3,
+      "size_bytes": 370
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\Resources\\instagram.png",
+      "language": "Other",
+      "lines": 7,
+      "size_bytes": 670
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\Resources\\linkedin.png",
+      "language": "Other",
+      "lines": 5,
+      "size_bytes": 432
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\Resources\\logo.png",
+      "language": "Other",
+      "lines": 107,
+      "size_bytes": 19453
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\Resources\\logo2.png",
+      "language": "Other",
+      "lines": 0,
+      "size_bytes": 2163709
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\Resources\\logout.png",
+      "language": "Other",
+      "lines": 4,
+      "size_bytes": 354
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\Resources\\network.png",
+      "language": "Other",
+      "lines": 3,
+      "size_bytes": 516
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\Resources\\refresh.png",
+      "language": "Other",
+      "lines": 9,
+      "size_bytes": 635
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\Resources\\refresh1.png",
+      "language": "Other",
+      "lines": 5,
+      "size_bytes": 543
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\Resources\\rooms.png",
+      "language": "Other",
+      "lines": 158,
+      "size_bytes": 36576
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\Resources\\rooms_hover.png",
+      "language": "Other",
+      "lines": 155,
+      "size_bytes": 37712
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\Resources\\services.png",
+      "language": "Other",
+      "lines": 128,
+      "size_bytes": 39440
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\Resources\\services_hover.png",
+      "language": "Other",
+      "lines": 156,
+      "size_bytes": 38018
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\Resources\\settings.png",
+      "language": "Other",
+      "lines": 6,
+      "size_bytes": 387
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\Resources\\sidebars.png",
+      "language": "Other",
+      "lines": 3520,
+      "size_bytes": 851270
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\Resources\\submit.png",
+      "language": "Other",
+      "lines": 337,
+      "size_bytes": 94465
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\Resources\\tools.png",
+      "language": "Other",
+      "lines": 6,
+      "size_bytes": 535
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\Resources\\twitter.png",
+      "language": "Other",
+      "lines": 4,
+      "size_bytes": 396
+    },
+    {
+      "relpath": "vb-project-master\\vbproject\\Resources\\username.png",
+      "language": "Other",
+      "lines": 62,
+      "size_bytes": 18189
+    }
+  ],
+  "context": "# File Inventory (Top by LOC)\n- vb-project-master\\vbproject\\bin\\Debug\\MySql.Data.xml (XML, 10570 lines)\n- vb-project-master\\vbproject\\bin\\Release\\MySql.Data.xml (XML, 10570 lines)\n- vb-project-master\\vbproject\\bin\\Debug\\MySql.Data.Entity.EF6.dll (Other, 9308 lines)\n- vb-project-master\\vbproject\\bin\\Release\\MySql.Data.Entity.EF6.dll (Other, 9308 lines)\n- vb-project-master\\vbproject\\bin\\Debug\\MySql.Data.dll (Other, 7163 lines)\n- vb-project-master\\vbproject\\bin\\Release\\MySql.Data.dll (Other, 7163 lines)\n- vb-project-master\\vbproject\\Resources\\background.png (Other, 6106 lines)\n- vb-project-master\\vbproject\\Resources\\sidebars.png (Other, 3520 lines)\n- vb-project-master\\.vs\\vbproject\\v15\\sqlite3\\storage.ide (Other, 2655 lines)\n- vb-project-master\\vbproject\\bin\\Debug\\mydatabase.mdb (Other, 1818 lines)\n- vb-project-master\\vbproject\\homepage.Designer.vb (VB/VB.NET, 1553 lines)\n- vb-project-master\\vbproject\\homepage.vb (VB/VB.NET, 802 lines)\n- vb-project-master\\vbproject\\obj\\Debug\\vbproject.vbprojResolveAssemblyReference.cache (Other, 557 lines)\n- vb-project-master\\vbproject\\My Project\\Resources.Designer.vb (VB/VB.NET, 454 lines)\n- vb-project-master\\vbproject\\vbproject.vbproj (Other, 429 lines)\n- vb-project-master\\vbproject\\showUsers.Designer.vb (VB/VB.NET, 392 lines)\n- vb-project-master\\vbproject\\Resources\\submit.png (Other, 337 lines)\n- vb-project-master\\vbproject\\customerInfo.Designer.vb (VB/VB.NET, 299 lines)\n- vb-project-master\\vbproject\\printForm.Designer.vb (VB/VB.NET, 285 lines)\n- vb-project-master\\vbproject\\homepage.resx (Other, 268 lines)\n- vb-project-master\\vbproject\\bin\\Debug\\vbproject.pdb (Other, 265 lines)\n- vb-project-master\\vbproject\\obj\\Debug\\vbproject.pdb (Other, 265 lines)\n- vb-project-master\\vbproject\\bin\\Release\\vbproject.pdb (Other, 259 lines)\n- vb-project-master\\vbproject\\obj\\Release\\vbproject.pdb (Other, 259 lines)\n- vb-project-master\\vbproject\\aboutUs.Designer.vb (VB/VB.NET, 254 lines)\n- vb-project-master\\vbproject\\My Project\\Resources.resx (Other, 238 lines)\n- vb-project-master\\vbproject\\bin\\Debug\\vbproject.xml (XML, 222 lines)\n- vb-project-master\\vbproject\\obj\\Debug\\vbproject.xml (XML, 222 lines)\n- vb-project-master\\vbproject\\bin\\Release\\vbproject.xml (XML, 217 lines)\n- vb-project-master\\vbproject\\obj\\Release\\vbproject.xml (XML, 217 lines)\n- vb-project-master\\vbproject\\updateUsers.Designer.vb (VB/VB.NET, 200 lines)\n- vb-project-master\\vbproject\\obj\\Release\\vbproject.vbprojResolveAssemblyReference.cache (Other, 197 lines)\n- vb-project-master\\vbproject\\obj\\Debug\\TempPE\\My Project.Resources.Designer.vb.dll (Other, 181 lines)\n- vb-project-master\\vbproject\\bin\\Debug\\MySql.Data.Entity.EF6.xml (XML, 179 lines)\n- vb-project-master\\vbproject\\bin\\Release\\MySql.Data.Entity.EF6.xml (XML, 179 lines)\n- vb-project-master\\vbproject\\obj\\Release\\TempPE\\My Project.Resources.Designer.vb.dll (Other, 179 lines)\n- vb-project-master\\vbproject\\bin\\Debug\\vbproject.vshost.exe (Other, 169 lines)\n- vb-project-master\\vbproject\\bin\\Release\\vbproject.vshost.exe (Other, 169 lines)\n- vb-project-master\\vbproject\\forgetform.Designer.vb (VB/VB.NET, 162 lines)\n- vb-project-master\\vbproject\\Resources\\rooms.png (Other, 158 lines)\n- vb-project-master\\vbproject\\Resources\\services_hover.png (Other, 156 lines)\n- vb-project-master\\vbproject\\Resources\\rooms_hover.png (Other, 155 lines)\n- vb-project-master\\vbproject\\sendMail.Designer.vb (VB/VB.NET, 153 lines)\n- vb-project-master\\vbproject\\showUsers.vb (VB/VB.NET, 153 lines)\n- vb-project-master\\vbproject\\editRoom.Designer.vb (VB/VB.NET, 147 lines)\n- vb-project-master\\vbproject\\updateRform.Designer.vb (VB/VB.NET, 144 lines)\n- vb-project-master\\vbproject\\customerInfo.vb (VB/VB.NET, 143 lines)\n- vb-project-master\\vbproject\\Resources\\aboutus.png (Other, 142 lines)\n- vb-project-master\\vbproject\\changepassword.Designer.vb (VB/VB.NET, 141 lines)\n- vb-project-master\\vbproject\\Resources\\aboutus_hover.png (Other, 141 lines)",
+  "analysis": "The project you've provided appears to be a Visual Basic (VB.NET) application, likely a desktop application given the presence of `.Designer.vb` files which are typically associated with Windows Forms applications. Here's an analysis of the project based on the file inventory:\n\n### Key Components:\n\n1. **Database Connectivity:**\n   - The presence of `MySql.Data.dll` and `MySql.Data.Entity.EF6.dll` indicates that the application uses MySQL as its database. These DLLs are part of the MySQL Connector/NET, which allows .NET applications to connect to MySQL databases.\n   - The `mydatabase.mdb` file suggests that there might also be some interaction with a Microsoft Access database, or it could be a placeholder or test database.\n\n2. **XML Files:**\n   - The `MySql.Data.xml` and `MySql.Data.Entity.EF6.xml` files are likely documentation files for the MySQL libraries, providing XML comments for IntelliSense in Visual Studio.\n   - The `vbproject.xml` files in both Debug and Release folders might contain configuration or metadata related to the project.\n\n3. **Visual Basic Code:**\n   - The main application logic seems to be contained in several `.vb` files, with `homepage.vb` and its designer file being the largest, suggesting it might be the main form or entry point of the application.\n   - Other `.Designer.vb` files indicate the presence of multiple forms, such as `showUsers`, `customerInfo`, `printForm`, `aboutUs`, `updateUsers`, `forgetform`, `sendMail`, `editRoom`, `updateRform`, and `changepassword`. These forms suggest functionalities related to user management, printing, sending emails, room management, and password changes.\n\n4. **Resources:**\n   - The `Resources` folder contains various image files (`.png`), which are likely used for the UI, such as backgrounds, sidebars, and icons for different sections of the application (e.g., rooms, services, about us).\n   - The `Resources.Designer.vb` file is auto-generated and manages access to these resources programmatically.\n\n5. **Build and Debug Information:**\n   - The presence of `bin` and `obj` folders with Debug and Release configurations indicates standard .NET project structure for compiled binaries and intermediate files.\n   - `.pdb` files are program database files used for debugging, containing information about the application's symbols and source code.\n\n6. **Project Configuration:**\n   - The `vbproject.vbproj` file is the main project file for the VB.NET application, containing configuration settings for building the project.\n   - `vbproject.vbprojResolveAssemblyReference.cache` files are used by MSBuild to cache assembly reference resolution results to improve build performance.\n\n### Observations:\n\n- The project appears to be a moderately complex VB.NET application with a focus on database interactions, likely for managing some form of data related to users and rooms.\n- The use of MySQL and possibly Access databases suggests a need for robust data handling capabilities.\n- The presence of multiple forms and resources indicates a rich user interface, possibly for a business or administrative application.\n- The project structure follows typical .NET conventions, making it easier to maintain and extend.\n\n### Recommendations:\n\n- Ensure that all third-party libraries (e.g., MySQL Connector/NET) are up to date to avoid security vulnerabilities.\n- Consider organizing the project files into more descriptive folders if the project grows, to maintain clarity and manageability.\n- Regularly review and update the XML documentation files to ensure they reflect the current state of the codebase, aiding in maintenance and onboarding of new developers.",
+  "lang_prompts": {
+    "Markdown": "You are a reverse engineer. Summarize Markdown code into documentation:\n- Purpose\n- Key modules\n- Dependencies\n- Mermaid diagrams if relevant\n",
+    "Other": "You are a reverse engineer. Summarize Other code into documentation:\n- Purpose\n- Key modules\n- Dependencies\n- Mermaid diagrams if relevant\n",
+    "VB/VB.NET": "You are a reverse engineer. Summarize VB/VB.NET code into documentation:\n- Purpose\n- Key modules\n- Dependencies\n- Mermaid diagrams if relevant\n",
+    "XML": "You are a reverse engineer. Summarize XML code into documentation:\n- Purpose\n- Key modules\n- Dependencies\n- Mermaid diagrams if relevant\n"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "Other": {
+      "files": 2,
+      "lines": 12,
+      "bytes": 120
+    },
+    "XML": {
+      "files": 1,
+      "lines": 52,
+      "bytes": 1518
+    },
+    "Markdown": {
+      "files": 1,
+      "lines": 36,
+      "bytes": 1179
+    },
+    "Java": {
+      "files": 4,
+      "lines": 92,
+      "bytes": 2707
+    },
+    "HTML": {
+      "files": 1,
+      "lines": 55,
+      "bytes": 2181
+    }
+  },
+  "files": [
+    {
+      "relpath": "chatgpt-java-starter\\.gitignore",
+      "language": "Other",
+      "lines": 6,
+      "size_bytes": 36
+    },
+    {
+      "relpath": "chatgpt-java-starter\\pom.xml",
+      "language": "XML",
+      "lines": 52,
+      "size_bytes": 1518
+    },
+    {
+      "relpath": "chatgpt-java-starter\\README.md",
+      "language": "Markdown",
+      "lines": 36,
+      "size_bytes": 1179
+    },
+    {
+      "relpath": "chatgpt-java-starter\\src\\main\\java\\com\\example\\chat\\ChatApplication.java",
+      "language": "Java",
+      "lines": 12,
+      "size_bytes": 315
+    },
+    {
+      "relpath": "chatgpt-java-starter\\src\\main\\java\\com\\example\\chat\\ChatController.java",
+      "language": "Java",
+      "lines": 35,
+      "size_bytes": 1060
+    },
+    {
+      "relpath": "chatgpt-java-starter\\src\\main\\java\\com\\example\\chat\\OpenAIConfig.java",
+      "language": "Java",
+      "lines": 22,
+      "size_bytes": 636
+    },
+    {
+      "relpath": "chatgpt-java-starter\\src\\main\\java\\com\\example\\chat\\WebCorsConfig.java",
+      "language": "Java",
+      "lines": 23,
+      "size_bytes": 696
+    },
+    {
+      "relpath": "chatgpt-java-starter\\src\\main\\resources\\application.properties",
+      "language": "Other",
+      "lines": 6,
+      "size_bytes": 84
+    },
+    {
+      "relpath": "chatgpt-java-starter\\src\\main\\resources\\static\\index.html",
+      "language": "HTML",
+      "lines": 55,
+      "size_bytes": 2181
+    }
+  ],
+  "context": "# File Inventory (Top by LOC)\n- chatgpt-java-starter\\src\\main\\resources\\static\\index.html (HTML, 55 lines)\n- chatgpt-java-starter\\pom.xml (XML, 52 lines)\n- chatgpt-java-starter\\README.md (Markdown, 36 lines)\n- chatgpt-java-starter\\src\\main\\java\\com\\example\\chat\\ChatController.java (Java, 35 lines)\n- chatgpt-java-starter\\src\\main\\java\\com\\example\\chat\\WebCorsConfig.java (Java, 23 lines)\n- chatgpt-java-starter\\src\\main\\java\\com\\example\\chat\\OpenAIConfig.java (Java, 22 lines)\n- chatgpt-java-starter\\src\\main\\java\\com\\example\\chat\\ChatApplication.java (Java, 12 lines)\n- chatgpt-java-starter\\.gitignore (Other, 6 lines)\n- chatgpt-java-starter\\src\\main\\resources\\application.properties (Other, 6 lines)",
+  "analysis": "This project appears to be a Java-based web application, likely a starter template for integrating with OpenAI's ChatGPT API. Here's a breakdown of the project components based on the file inventory:\n\n1. **Front-End:**\n   - **`index.html` (55 lines):** This file is likely the main entry point for the web interface. It could contain the basic HTML structure for the application, possibly including a form or input field for users to interact with the ChatGPT model.\n\n2. **Build Configuration:**\n   - **`pom.xml` (52 lines):** This is a Maven build configuration file. It defines the project's dependencies, build plugins, and other configurations necessary for building and running the Java application. It might include dependencies for Spring Boot, a web framework, and possibly an HTTP client for API requests.\n\n3. **Documentation:**\n   - **`README.md` (36 lines):** This markdown file likely contains instructions on how to set up, build, and run the project. It might also provide an overview of the project's purpose and features.\n\n4. **Java Source Code:**\n   - **`ChatController.java` (35 lines):** This file likely contains a Spring Boot controller class that handles HTTP requests. It might define endpoints for interacting with the ChatGPT API, processing user input, and returning responses.\n   - **`WebCorsConfig.java` (23 lines):** This file probably contains configuration for Cross-Origin Resource Sharing (CORS), allowing the web application to make requests to the ChatGPT API from a different origin.\n   - **`OpenAIConfig.java` (22 lines):** This file likely contains configuration settings for connecting to the OpenAI API, such as API keys and endpoint URLs.\n   - **`ChatApplication.java` (12 lines):** This is likely the main class that bootstraps the Spring Boot application. It contains the `main` method that starts the application.\n\n5. **Configuration and Miscellaneous:**\n   - **`.gitignore` (6 lines):** This file specifies which files and directories should be ignored by Git, such as build artifacts and sensitive configuration files.\n   - **`application.properties` (6 lines):** This file likely contains configuration properties for the Spring Boot application, such as server port settings or API keys.\n\nOverall, this project seems to be a simple starter template for building a web application that integrates with the ChatGPT API using Java and Spring Boot. It includes basic HTML for the user interface, Java classes for handling HTTP requests and API interactions, and configuration files for building and running the application.",
+  "lang_prompts": {
+    "Other": "You are a reverse engineer. Summarize Other code into documentation:\n- Purpose\n- Key modules\n- Dependencies\n- Mermaid diagrams if relevant\n",
+    "XML": "You are a reverse engineer. Summarize XML code into documentation:\n- Purpose\n- Key modules\n- Dependencies\n- Mermaid diagrams if relevant\n",
+    "Markdown": "You are a reverse engineer. Summarize Markdown code into documentation:\n- Purpose\n- Key modules\n- Dependencies\n- Mermaid diagrams if relevant\n",
+    "Java": "You are a reverse engineer. Summarize Java code into documentation:\n- Purpose\n- Key modules\n- Dependencies\n- Mermaid diagrams if relevant\n",
+    "HTML": "You are a reverse engineer. Summarize HTML code into documentation:\n- Purpose\n- Key modules\n- Dependencies\n- Mermaid diagrams if relevant\n"
+  }
+}

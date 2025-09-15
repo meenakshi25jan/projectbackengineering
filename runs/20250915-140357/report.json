@@ -1,0 +1,148 @@
+{
+  "summary": {
+    "Other": {
+      "files": 12,
+      "lines": 1098,
+      "bytes": 8972035
+    },
+    "Markdown": {
+      "files": 1,
+      "lines": 6,
+      "bytes": 201
+    },
+    "VB6 Form": {
+      "files": 2,
+      "lines": 1573,
+      "bytes": 51092
+    },
+    "VB6": {
+      "files": 4,
+      "lines": 895,
+      "bytes": 28988
+    }
+  },
+  "files": [
+    {
+      "relpath": "vb6-crud-master\\.gitattributes",
+      "language": "Other",
+      "lines": 27,
+      "size_bytes": 522
+    },
+    {
+      "relpath": "vb6-crud-master\\.gitignore",
+      "language": "Other",
+      "lines": 2,
+      "size_bytes": 10
+    },
+    {
+      "relpath": "vb6-crud-master\\CRUD Readme.txt",
+      "language": "Other",
+      "lines": 55,
+      "size_bytes": 2240
+    },
+    {
+      "relpath": "vb6-crud-master\\InstallationFiles.zip",
+      "language": "Other",
+      "lines": 0,
+      "size_bytes": 8604040
+    },
+    {
+      "relpath": "vb6-crud-master\\README.md",
+      "language": "Markdown",
+      "lines": 6,
+      "size_bytes": 201
+    },
+    {
+      "relpath": "vb6-crud-master\\Screen.jpg",
+      "language": "Other",
+      "lines": 173,
+      "size_bytes": 55456
+    },
+    {
+      "relpath": "vb6-crud-master\\Binary\\CRUD.exe",
+      "language": "Other",
+      "lines": 344,
+      "size_bytes": 131072
+    },
+    {
+      "relpath": "vb6-crud-master\\Binary\\CRUD.mdb",
+      "language": "Other",
+      "lines": 191,
+      "size_bytes": 77824
+    },
+    {
+      "relpath": "vb6-crud-master\\SourceCode\\BuscarFrm.frm",
+      "language": "VB6 Form",
+      "lines": 342,
+      "size_bytes": 10290
+    },
+    {
+      "relpath": "vb6-crud-master\\SourceCode\\BuscarFrm.frx",
+      "language": "Other",
+      "lines": 1,
+      "size_bytes": 12
+    },
+    {
+      "relpath": "vb6-crud-master\\SourceCode\\ClientesFrm.frm",
+      "language": "VB6 Form",
+      "lines": 1231,
+      "size_bytes": 40802
+    },
+    {
+      "relpath": "vb6-crud-master\\SourceCode\\ClientesFrm.frx",
+      "language": "Other",
+      "lines": 1,
+      "size_bytes": 18382
+    },
+    {
+      "relpath": "vb6-crud-master\\SourceCode\\CRUD.mdb",
+      "language": "Other",
+      "lines": 191,
+      "size_bytes": 77824
+    },
+    {
+      "relpath": "vb6-crud-master\\SourceCode\\CRUD.vbp",
+      "language": "Other",
+      "lines": 50,
+      "size_bytes": 1290
+    },
+    {
+      "relpath": "vb6-crud-master\\SourceCode\\CRUD.vbw",
+      "language": "Other",
+      "lines": 63,
+      "size_bytes": 3363
+    },
+    {
+      "relpath": "vb6-crud-master\\SourceCode\\CRUDMod.bas",
+      "language": "VB6",
+      "lines": 463,
+      "size_bytes": 15417
+    },
+    {
+      "relpath": "vb6-crud-master\\SourceCode\\GeneralMod.bas",
+      "language": "VB6",
+      "lines": 63,
+      "size_bytes": 1619
+    },
+    {
+      "relpath": "vb6-crud-master\\SourceCode\\HelpersMod.bas",
+      "language": "VB6",
+      "lines": 57,
+      "size_bytes": 2170
+    },
+    {
+      "relpath": "vb6-crud-master\\SourceCode\\TextBoxesMod.bas",
+      "language": "VB6",
+      "lines": 312,
+      "size_bytes": 9782
+    }
+  ],
+  "context": "# File Inventory (Top by LOC)\n- vb6-crud-master\\SourceCode\\ClientesFrm.frm (VB6 Form, 1231 lines)\n- vb6-crud-master\\SourceCode\\CRUDMod.bas (VB6, 463 lines)\n- vb6-crud-master\\Binary\\CRUD.exe (Other, 344 lines)\n- vb6-crud-master\\SourceCode\\BuscarFrm.frm (VB6 Form, 342 lines)\n- vb6-crud-master\\SourceCode\\TextBoxesMod.bas (VB6, 312 lines)\n- vb6-crud-master\\Binary\\CRUD.mdb (Other, 191 lines)\n- vb6-crud-master\\SourceCode\\CRUD.mdb (Other, 191 lines)\n- vb6-crud-master\\Screen.jpg (Other, 173 lines)\n- vb6-crud-master\\SourceCode\\CRUD.vbw (Other, 63 lines)\n- vb6-crud-master\\SourceCode\\GeneralMod.bas (VB6, 63 lines)\n- vb6-crud-master\\SourceCode\\HelpersMod.bas (VB6, 57 lines)\n- vb6-crud-master\\CRUD Readme.txt (Other, 55 lines)\n- vb6-crud-master\\SourceCode\\CRUD.vbp (Other, 50 lines)\n- vb6-crud-master\\.gitattributes (Other, 27 lines)\n- vb6-crud-master\\README.md (Markdown, 6 lines)\n- vb6-crud-master\\.gitignore (Other, 2 lines)\n- vb6-crud-master\\SourceCode\\BuscarFrm.frx (Other, 1 lines)\n- vb6-crud-master\\SourceCode\\ClientesFrm.frx (Other, 1 lines)\n- vb6-crud-master\\InstallationFiles.zip (Other, 0 lines)",
+  "analysis": "This project appears to be a Visual Basic 6 (VB6) application focused on CRUD (Create, Read, Update, Delete) operations, likely for managing client data. Here's a breakdown of the project based on the provided file inventory:\n\n### Key Components:\n\n1. **VB6 Forms:**\n   - **ClientesFrm.frm (1231 lines):** This is the main form for managing client data. Given its size, it likely contains the bulk of the user interface and logic for CRUD operations.\n   - **BuscarFrm.frm (342 lines):** This form is probably used for searching or filtering client data. It is smaller than the main form, indicating a more focused functionality.\n\n2. **VB6 Modules:**\n   - **CRUDMod.bas (463 lines):** This module likely contains the core logic for CRUD operations, such as database interactions and data manipulation.\n   - **TextBoxesMod.bas (312 lines):** This module might handle operations related to text boxes, possibly including validation or formatting.\n   - **GeneralMod.bas (63 lines):** A general-purpose module that might include utility functions or constants used across the application.\n   - **HelpersMod.bas (57 lines):** This module likely contains helper functions to support the main application logic.\n\n3. **Database:**\n   - **CRUD.mdb (191 lines):** This Microsoft Access database file is used to store the application's data. It appears twice, once in the Binary folder and once in the SourceCode folder, suggesting it is both a source and a compiled asset.\n\n4. **Binary Files:**\n   - **CRUD.exe (344 lines):** The compiled executable of the application, indicating the project has been built and is ready to run.\n   - **InstallationFiles.zip (0 lines):** A compressed file likely containing the necessary files for installing the application on a user's system.\n\n5. **Project Files:**\n   - **CRUD.vbp (50 lines):** The Visual Basic project file, which contains metadata about the project and its components.\n   - **CRUD.vbw (63 lines):** The workspace file, which stores information about the development environment setup.\n\n6. **Documentation and Configuration:**\n   - **CRUD Readme.txt (55 lines):** A text file likely containing instructions or information about the project.\n   - **README.md (6 lines):** A markdown file, possibly providing a brief overview of the project.\n   - **.gitattributes (27 lines) and .gitignore (2 lines):** Git configuration files for managing version control.\n\n7. **Other Files:**\n   - **Screen.jpg (173 lines):** An image file, possibly a screenshot or diagram related to the application.\n   - **ClientesFrm.frx and BuscarFrm.frx (1 line each):** Binary files associated with the VB6 forms, storing additional form data such as layout and controls.\n\n### Analysis:\n\n- **Complexity and Size:** The project is moderately complex, with the main form being quite large, indicating a rich user interface or complex logic.\n- **Modularity:** The use of multiple modules suggests an attempt to organize code logically, separating concerns such as UI, data handling, and utility functions.\n- **Database Integration:** The presence of an Access database file indicates that the application relies on a local database for data storage, typical for VB6 applications.\n- **Legacy Technology:** As a VB6 project, this application is built on a legacy platform, which might pose challenges for maintenance and modernization.\n- **Deployment:** The inclusion of an executable and installation files suggests that the project is intended for distribution and use outside the development environment.\n\nOverall, this project is a typical example of a VB6 application designed for managing data through a graphical user interface, with a focus on CRUD operations and local database storage.",
+  "lang_prompts": {
+    "Other": "You are a reverse engineer. Summarize Other code into documentation:\n- Purpose\n- Key modules\n- Dependencies\n- Mermaid diagrams if relevant\n",
+    "Markdown": "You are a reverse engineer. Summarize Markdown code into documentation:\n- Purpose\n- Key modules\n- Dependencies\n- Mermaid diagrams if relevant\n",
+    "VB6 Form": "You are a reverse engineer. Summarize VB6 Form code into documentation:\n- Purpose\n- Key modules\n- Dependencies\n- Mermaid diagrams if relevant\n",
+    "VB6": "You are a reverse engineer. Summarize VB6 code into documentation:\n- Purpose\n- Key modules\n- Dependencies\n- Mermaid diagrams if relevant\n"
+  }
+}

@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>{{ name }} — Doc Viewer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <style>
+    :root { color-scheme: light dark; }
+    body{font-family:system-ui,Segoe UI,Roboto,Arial;margin:1.2rem; line-height:1.45}
+    .container{max-width:1100px;margin:0 auto}
+    .toolbar a{margin-right:.8rem}
+    .toolbar{margin-bottom:1rem}
+    /* Make diagrams responsive */
+    .mermaid, img { max-width: 100%; height: auto; }
+    pre code { white-space: pre-wrap; }
+  </style>
+  <script src="https://unpkg.com/mermaid@10/dist/mermaid.min.js" defer></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Initialize Mermaid once the DOM is ready
+      if (window.mermaid) {
+        mermaid.initialize({
+          startOnLoad: false,   // we will trigger manually
+          securityLevel: 'loose', // allows links in diagrams
+          theme: (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)
+                   ? 'dark' : 'default'
+        });
+        // Render any .mermaid blocks already in the page
+        mermaid.run({ querySelector: '.mermaid' });
+      }
+    });
+  </script>
+</head>
+<body>
+  <div class="container">
+    <div class="toolbar">
+      <a href="{{ url_for('dashboard', run_id=run_id) }}">← Back to Dashboard</a>
+      <a href="{{ url_for('download_docfile', run_id=run_id, name=name) }}">Download MD</a>
+    </div>
+    <h1>{{ name }}</h1>
+    <!-- body is trusted server-rendered HTML (Markdown → HTML with mermaid blocks pre-wrapped) -->
+    <div id="doc-body">{{ body|safe }}</div>
+  </div>
+</body>
+</html>

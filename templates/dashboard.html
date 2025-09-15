@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Migration Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; margin:1.2rem; line-height:1.45 }
+    .grid { display:grid; grid-template-columns: 1fr 1fr; gap:1rem }
+    .full { grid-column:1 / -1 }
+    .card { border:1px solid #ddd; border-radius:10px; padding:1rem; background:#fff0; }
+    .tag { display:inline-block; padding:.2rem .5rem; border:1px solid #ccc; border-radius:999px; margin:.15rem; font-size:12px }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace }
+    button { padding:.45rem .8rem; border-radius:8px; border:1px solid #333; background:#111; color:#fff; cursor:pointer }
+    button[disabled] { opacity:.6; cursor:not-allowed }
+    textarea { width:100%; min-height:140px; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace }
+    .small { font-size:12px; color:#666 }
+    details summary { cursor:pointer }
+    pre { white-space:pre-wrap; word-wrap:break-word }
+    a { text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ReverseGenAI Migration Suite (Interactive)</h1>
+    <p class="small">Run ID: {{ run_id }}</p>
+  </header>
+
+  <div class="grid">
+
+    <!-- Language Summary -->
+    <section class="card">
+      <h2>Language Summary</h2>
+      {% if data.summary %}
+        <div>
+          {% for lang, stats in data.summary.items() %}
+            <span class="tag">{{ lang }} • {{ stats.files }} files • {{ stats.lines }} LOC</span>
+          {% endfor %}
+        </div>
+      {% else %}
+        <p class="small">No languages detected yet. Upload a project .zip to begin.</p>
+      {% endif %}
+      <p class="small" style="margin-top:.5rem">
+        Download raw JSON:
+        <a href="{{ url_for('download_report', run_id=run_id) }}">report-{{ run_id }}.json</a>
+      </p>
+    </section>
+
+    <!-- Per-language Prompt Starters -->
+    <section class="card full">
+      <h2>Per-language Prompt Starters (Editable)</h2>
+      <p class="small">Edit the prompt then click Run Analysis. The result is saved as <code>ReverseDoc-&lt;lang&gt;.md</code> and previewed below.</p>
+      {% if data.lang_prompts %}
+        {% for lang, tmpl in data.lang_prompts.items() %}
+          {% set slug = lang|lower|replace(' ', '-') %}
+          <details style="margin:.6rem 0;" open>
+            <summary><b>{{ lang }}</b></summary>
+            <textarea id="prompt-{{ slug }}" aria-label="Prompt for {{ lang }}">{{ tmpl }}</textarea>
+            <div style="margin-top:.5rem; display:flex; gap:.6rem; align-items:center;">
+              <button id="btn-run-{{ slug }}" onclick="runCustom('{{ lang }}','{{ slug }}')">Run Analysis with this Prompt</button>
+              <a id="download-{{ slug }}" href="{{ url_for('download_custom_doc', run_id=run_id, lang=lang) }}" style="display:none">Download ReverseDoc-{{ slug }}.md</a>
+            </div>
+            <pre id="preview-{{ slug }}" class="mono" style="margin-top:.6rem" aria-live="polite"></pre>
+          </details>
+        {% endfor %}
+      {% else %}
+        <p class="small">No prompt templates available for this run.</p>
+      {% endif %}
+    </section>
+
+    <!-- Full Documentation -->
+    <section class="card full">
+      <h2>Full Documentation</h2>
+      <p class="small">One click generates: Current Architecture, Class Diagram, Sequence Diagram, Data Model (ER), APIs, Migration Plan.</p>
+      <button id="btn-genfull" onclick="genFull()">Generate Full Doc Set</button>
+      <span id="fullStatus" class="small" role="status" aria-live="polite"></span>
+      <div id="docLinks" style="margin-top:.5rem; display:none">
+        <div>
+          <a href="{{ url_for('download_docfile', run_id=run_id, name='Architecture.md') }}">Architecture.md</a>
+          [<a target="_blank" rel="noopener" href="{{ url_for('doc_view', run_id=run_id, name='Architecture.md') }}">View (HTML)</a>] •
+        </div>
+        <div>
+          <a href="{{ url_for('download_docfile', run_id=run_id, name='ClassDiagram.md') }}">ClassDiagram.md</a>
+          [<a target="_blank" rel="noopener" href="{{ url_for('doc_view', run_id=run_id, name='ClassDiagram.md') }}">View (HTML)</a>] •
+        </div>
+        <div>
+          <a href="{{ url_for('download_docfile', run_id=run_id, name='SequenceDiagram.md') }}">SequenceDiagram.md</a>
+          [<a target="_blank" rel="noopener" href="{{ url_for('doc_view', run_id=run_id, name='SequenceDiagram.md') }}">View (HTML)</a>] •
+        </div>
+        <div>
+          <a href="{{ url_for('download_docfile', run_id=run_id, name='DataModel.md') }}">DataModel.md</a>
+          [<a target="_blank" rel="noopener" href="{{ url_for('doc_view', run_id=run_id, name='DataModel.md') }}">View (HTML)</a>] •
+        </div>
+        <div>
+          <a href="{{ url_for('download_docfile', run_id=run_id, name='APIs.md') }}">APIs.md</a>
+          [<a target="_blank" rel="noopener" href="{{ url_for('doc_view', run_id=run_id, name='APIs.md') }}">View (HTML)</a>] •
+        </div>
+        <div>
+          <a href="{{ url_for('download_docfile', run_id=run_id, name='MigrationPlan.md') }}">MigrationPlan.md</a>
+          [<a target="_blank" rel="noopener" href="{{ url_for('doc_view', run_id=run_id, name='MigrationPlan.md') }}">View (HTML)</a>] •
+        </div>
+        <div style="margin-top:.4rem">
+          <a href="{{ url_for('export_bundle', run_id=run_id) }}">Download Bundle (.zip)</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Deep Analysis -->
+    <section class="card full">
+      <h2>Deep Analysis (Initial)</h2>
+      <pre class="mono">{{ data.analysis }}</pre>
+    </section>
+  </div>
+
+  <script>
+  async function runCustom(lang, slug){
+    const btn = document.getElementById("btn-run-"+slug);
+    const ta = document.getElementById("prompt-"+slug);
+    const preview = document.getElementById("preview-"+slug);
+    const link = document.getElementById("download-"+slug);
+    const fd = new FormData();
+    fd.append("prompt", ta.value || "");
+    fd.append("run_id", "{{ run_id }}");
+    preview.textContent = "Running analysis…";
+    link.style.display = "none";
+    btn.disabled = true;
+
+    try{
+      const url = "{{ url_for('analyze_prompt', lang='__LANG__') }}".replace("__LANG__", encodeURIComponent(lang));
+      const res = await fetch(url, { method:"POST", body: fd });
+      if(!res.ok){
+        const tx = await res.text();
+        throw new Error("HTTP "+res.status+" — "+tx);
+      }
+      const js = await res.json();
+      if(js.ok){
+        preview.textContent = (js.preview || "").trim() + ((js.preview && js.preview.length >= 1200) ? "\n\n[preview truncated]" : "");
+        link.href = "{{ url_for('download_custom_doc', run_id=run_id, lang='__LANG__') }}".replace("__LANG__", encodeURIComponent(lang));
+        link.style.display = "inline-block";
+      } else {
+        preview.textContent = "Error: " + (js.error || "unknown");
+      }
+    }catch(e){
+      preview.textContent = "Error: " + e.message;
+    }finally{
+      btn.disabled = false;
+    }
+  }
+
+  async function genFull(){
+    const btn = document.getElementById("btn-genfull");
+    const st = document.getElementById("fullStatus");
+    const links = document.getElementById("docLinks");
+    st.textContent = " Generating…";
+    links.style.display = "none";
+    btn.disabled = true;
+
+    try{
+      const res = await fetch("{{ url_for('generate_full_docs', run_id=run_id) }}", { method:"POST" });
+      if(!res.ok){
+        const tx = await res.text();
+        throw new Error("HTTP "+res.status+" — "+tx);
+      }
+      const js = await res.json();
+      if(js.ok){
+        st.textContent = " Done ("+js.files.length+" files).";
+        links.style.display = "block";
+      }else{
+        st.textContent = " Error: " + (js.error || "unknown");
+      }
+    }catch(e){
+      st.textContent = " Error: " + e.message;
+    }finally{
+      btn.disabled = false;
+    }
+  }
+  </script>
+</body>
+</html>
